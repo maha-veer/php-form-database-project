@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+    color: white;
+}
+.container{
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.content-container{
+ border: 1px solid white;
+ display: flex;
+ color: red;
+ flex-direction: column;
+ background-color: #fff;
+ padding: 55px;
+}
+.form-container{
+    background-color: grey;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.divider{
+    margin-top: 40px;
+}
+button {
+    padding: 5px;
+    border: 0;
+    margin-top: 10px;
+}
+input{
+    border: 0;
+    border-bottom: 2px solid red;
+    /* margin-bottom: 15px; */
+    padding: 10px 5px ;
+}
+input:hover{
+    border: 0;
+    border-bottom: 2px solid green;
+    outline: 0;
+}
+input:active{
+    outline: 0;
+}
+.container{
+    display: flex;
+    padding: 15px;
+}
+.content-container{
+    width: 50%;
+}
+.form-container{
+    width: 50%;
+}
+.primary{
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.primary:hover{
+    background-color: rgba(255, 0, 0, 0.815);
+    cursor: pointer;
+}
+.secondary{
+    padding: 10px 15px;
+    background-color: rgb(60, 255, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.secondary:hover{
+    background-color: rgba(60, 255, 0, 0.808);
+    cursor: pointer;
+
+}
+.tersory{
+    padding: 10px 15px;
+    background-color: rgba(0, 255, 179, 0.568);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}

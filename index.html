@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abc Health Limited</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content-container">
+            <div class="divider"></div>
+            <h1>Hellow, Mahaveer </h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, velit quibusdam! Nulla recusandae, ut, nesciunt facere dolore repudiandae ad, exercitationem repellendus nisi ipsam officiis? Ipsum rerum dignissimos minus earum quam.</p>
+            <button class="secondary">Get Started</button>
+            <a href="search.html"><button class="primary">Check Your Report</button>
+            </a>
+        </div>
+        <div class="form-container">
+            <form action="form.php" method="POST" enctype="multipart/form-data">
+                <label for="usrName">Name</label><br>
+                <input type="text" name="name" id="usrName" required><br>
+                <label for="usrEmail">Email</label><br>
+                <input type="email" name="email" id="usrEmail" required><br>
+                <label for="usrAge">Age</label><br>
+                <input type="number" name="age" id="usrAge"><br>
+                <label for="usrWeight">Weight</label><br>
+                <input type="number" name="weight" id="usrWeight"><br>
+                
+                <label for="usrReport">Upload Report </label><br>
+                <input type="file" name="pdf" id="usrReport" accept=".pdf"><br>
+                <button type="submit" class="secondary">Submit</button>
+                <button type="reset" class="tersory">Reset</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+Database name : abc_health
+Table Name : primary_table
